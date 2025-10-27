@@ -1,0 +1,21 @@
+id_cliente,nome,idade,renda_mensal,estado_civil,tempo_emprego_anos,score_credito
+1,Cliente 1,60,5433,casado,18,558
+2,Cliente 2,50,8311,casado,12,678
+3,Cliente 3,36,8051,solteiro,2,685
+4,Cliente 4,64,9420,casado,10,612
+5,Cliente 5,29,9396,solteiro,4,688
+6,Cliente 6,42,11666,casado,14,630
+7,Cliente 7,60,5747,divorciado,16,712
+8,Cliente 8,40,3189,divorciado,15,838
+9,Cliente 9,44,6005,solteiro,8,810
+10,Cliente 10,32,4899,divorciado,14,780
+11,Cliente 11,32,4267,divorciado,8,590
+12,Cliente 12,45,14394,casado,16,577
+13,Cliente 13,57,6556,solteiro,13,684
+14,Cliente 14,61,6890,casado,18,750
+15,Cliente 15,45,11838,casado,15,817
+16,Cliente 16,24,17502,casado,13,582
+17,Cliente 17,43,13627,casado,9,597
+18,Cliente 18,23,11792,casado,15,611
+19,Cliente 19,45,13555,casado,13,765
+20,Cliente 20,51,13253,casado,1,842

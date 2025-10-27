@@ -1,0 +1,21 @@
+id_garantia,id_cliente,tipo_bem,valor_bem,liquidez,descricao
+2001,1,veículo,153121,alta,Bem 1
+2002,2,máquina,182688,alta,Bem 2
+2003,3,terreno,385871,alta,Bem 3
+2004,4,veículo,395037,alta,Bem 4
+2005,5,veículo,303076,média,Bem 5
+2006,6,imóvel,137796,média,Bem 6
+2007,7,máquina,311999,média,Bem 7
+2008,8,máquina,212506,alta,Bem 8
+2009,9,imóvel,485910,alta,Bem 9
+2010,10,imóvel,194088,baixa,Bem 10
+2011,11,máquina,289544,média,Bem 11
+2012,12,máquina,400002,média,Bem 12
+2013,13,terreno,193714,média,Bem 13
+2014,14,terreno,35151,alta,Bem 14
+2015,15,imóvel,464623,baixa,Bem 15
+2016,16,terreno,86690,baixa,Bem 16
+2017,17,veículo,24499,média,Bem 17
+2018,18,terreno,26295,baixa,Bem 18
+2019,19,terreno,403029,média,Bem 19
+2020,20,veículo,408215,alta,Bem 20

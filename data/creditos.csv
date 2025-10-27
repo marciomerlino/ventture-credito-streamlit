@@ -1,0 +1,21 @@
+id_credito,id_cliente,valor_solicitado,tipo_credito,prazo_meses,status,taxa_juros,aprovado
+1001,1,20965,pessoal,36,quitado,3.44,Sim
+1002,2,34538,veicular,60,ativo,3.41,Sim
+1003,3,118066,pessoal,60,ativo,1.78,Sim
+1004,4,123252,imobiliário,60,ativo,2.34,Sim
+1005,5,149182,imobiliário,60,em atraso,1.89,Sim
+1006,6,168338,pessoal,60,em atraso,1.86,Sim
+1007,7,194064,imobiliário,36,quitado,1.28,Não
+1008,8,108806,imobiliário,36,em atraso,2.6,Sim
+1009,9,147982,pessoal,48,ativo,2.36,Sim
+1010,10,120989,pessoal,60,quitado,1.32,Sim
+1011,11,100982,imobiliário,36,ativo,1.84,Sim
+1012,12,131626,imobiliário,48,ativo,3.29,Sim
+1013,13,129176,imobiliário,60,em atraso,1.75,Sim
+1014,14,141278,veicular,24,quitado,1.53,Sim
+1015,15,132409,veicular,48,em atraso,2.33,Sim
+1016,16,33419,veicular,36,em atraso,3.47,Sim
+1017,17,191708,pessoal,24,quitado,1.76,Sim
+1018,18,60015,veicular,24,ativo,2.75,Sim
+1019,19,132096,pessoal,24,ativo,2.95,Sim
+1020,20,117059,pessoal,48,quitado,1.75,Não

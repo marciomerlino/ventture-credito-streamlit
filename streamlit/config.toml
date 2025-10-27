@@ -1,0 +1,7 @@
+[theme]
+base = "light"
+primaryColor = "#1E90FF"        # Azul Ventture (Dodger Blue)
+backgroundColor = "#FFFFFF"     # Fundo branco
+secondaryBackgroundColor = "#F8F9FA"
+textColor = "#1B1B1B"
+font = "sans serif"
