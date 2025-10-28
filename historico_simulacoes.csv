@@ -1,43 +1,805 @@
-data_hora,renda,idade,valor_credito,valor_bem,liquidez,prob_aprovacao,aprovado
-2025-10-26 17:05:17,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-26 17:10:26,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-26 17:16:01,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-26 17:17:59,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-26 17:24:18,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-26 17:25:34,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-26 17:26:35,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-26 17:28:45,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-26 17:30:22,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-26 17:32:16,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-26 17:32:28,10000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-26 17:32:35,10000.0,72,50000.0,80000.0,baixa,0.92,Sim
-2025-10-26 17:32:52,10000.0,72,10000.0,80000.0,baixa,0.91,Sim
-2025-10-26 17:32:57,10000.0,72,10000.0,10000.0,baixa,0.93,Sim
-2025-10-26 17:33:02,10000.0,72,10000.0,10000.0,baixa,0.93,Sim
-2025-10-26 17:33:09,10000.0,35,10000.0,10000.0,baixa,1.0,Sim
-2025-10-26 17:36:18,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-26 17:38:01,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-26 17:42:03,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-26 17:47:42,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-26 17:50:48,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-26 17:53:29,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-26 18:02:16,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-26 18:03:04,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-27 11:20:22,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-27 11:20:54,100000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-27 11:38:59,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-27 11:44:43,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-27 11:47:03,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-27 14:35:09,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-27 14:40:32,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-27 14:40:34,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-27 14:45:27,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-27 14:46:37,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-27 14:48:23,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-27 14:50:22,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-27 14:51:30,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-27 14:56:19,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-27 14:57:09,10000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-27 14:57:45,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-27 14:59:06,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
-2025-10-27 15:17:34,8000.0,35,50000.0,80000.0,baixa,1.0,Sim
+data_hora,renda,idade,valor_credito,valor_bem,liquidez,prob_aprovacao,aprovado,mensagem_cliente,explicacao_html
+2025-10-26 17:05:17,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-26 17:10:26,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-26 17:16:01,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-26 17:17:59,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-26 17:24:18,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-26 17:25:34,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-26 17:26:35,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-26 17:28:45,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-26 17:30:22,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-26 17:32:16,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-26 17:32:28,10000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-26 17:32:35,10000.0,72,50000.0,80000.0,baixa,0.92,Sim,,
+2025-10-26 17:32:52,10000.0,72,10000.0,80000.0,baixa,0.91,Sim,,
+2025-10-26 17:32:57,10000.0,72,10000.0,10000.0,baixa,0.93,Sim,,
+2025-10-26 17:33:02,10000.0,72,10000.0,10000.0,baixa,0.93,Sim,,
+2025-10-26 17:33:09,10000.0,35,10000.0,10000.0,baixa,1.0,Sim,,
+2025-10-26 17:36:18,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-26 17:38:01,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-26 17:42:03,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-26 17:47:42,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-26 17:50:48,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-26 17:53:29,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-26 18:02:16,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-26 18:03:04,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-27 11:20:22,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-27 11:20:54,100000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-27 11:38:59,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-27 11:44:43,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-27 11:47:03,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-27 14:35:09,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-27 14:40:32,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-27 14:40:34,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-27 14:45:27,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-27 14:46:37,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-27 14:48:23,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-27 14:50:22,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-27 14:51:30,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-27 14:56:19,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-27 14:57:09,10000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-27 14:57:45,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-27 14:59:06,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-27 15:17:34,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-27 15:49:25,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-27 15:53:15,8500.0,38,60000.0,90000.0,media,1.0,Sim,,
+2025-10-27 15:54:12,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-27 22:29:03,8500.0,38,60000.0,90000.0,media,1.0,Sim,,
+2025-10-27 22:35:23,8500.0,38,60000.0,90000.0,media,1.0,Sim,Parabéns — seu crédito foi aprovado com probabilidade estimada de 100.00%. Em breve entraremos em contato para formalizar a proposta.,
+2025-10-27 22:45:52,8500.0,38,60000.0,90000.0,media,1.0,Sim,Parabéns — seu crédito foi aprovado com probabilidade estimada de 100.00%. Em breve entraremos em contato para formalizar a proposta.,
+2025-10-27 22:46:23,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,Parabéns — seu crédito foi aprovado com probabilidade estimada de 100.00%. Em breve entraremos em contato para formalizar a proposta.,
+2025-10-27 22:48:41,8500.0,38,60000.0,90000.0,media,1.0,Sim,,
+2025-10-27 23:40:24,8500.0,38,60000.0,90000.0,media,1.0,Sim,,
+2025-10-27 23:46:40,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-27 23:49:52,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,
+2025-10-28 00:07:03,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,,"
+            <style>
+                body { color: #1E90FF; font-family: Arial; }
+                table { color: #1E90FF; }
+            </style>
+            
+    <style>
+    table.eli5-weights tr:hover {
+        filter: brightness(85%);
+    }
+</style>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+        <table class=""eli5-weights eli5-feature-importances"" style=""border-collapse: collapse; border: none; margin-top: 0em; table-layout: auto;"">
+    <thead>
+    <tr style=""border: none;"">
+        <th style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">Weight</th>
+        <th style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">Feature</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                garantia_ponderada
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                renda_por_idade
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                liquidez_score
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                relacao_garantia_credito
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                valor_bem
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                valor_solicitado
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                idade
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                renda_mensal
+            </td>
+        </tr>
+    
+    
+    </tbody>
+</table>
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+            "
+2025-10-28 00:08:26,11000.0,35,50000.0,80000.0,baixa,1.0,Sim,,"
+            <style>
+                body { color: #1E90FF; font-family: Arial; }
+                table { color: #1E90FF; }
+            </style>
+            
+    <style>
+    table.eli5-weights tr:hover {
+        filter: brightness(85%);
+    }
+</style>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+        <table class=""eli5-weights eli5-feature-importances"" style=""border-collapse: collapse; border: none; margin-top: 0em; table-layout: auto;"">
+    <thead>
+    <tr style=""border: none;"">
+        <th style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">Weight</th>
+        <th style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">Feature</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                garantia_ponderada
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                renda_por_idade
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                liquidez_score
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                relacao_garantia_credito
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                valor_bem
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                valor_solicitado
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                idade
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                renda_mensal
+            </td>
+        </tr>
+    
+    
+    </tbody>
+</table>
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+            "
+2025-10-28 00:37:24,8000.0,35,50000.0,80000.0,baixa,1.0,Sim,"Prezado Cliente,
+
+É com grande satisfação que apresentamos a análise preliminar da sua solicitação de crédito junto à Ventture. Com base nas informações fornecidas e em nossa avaliação, temos excelentes notícias para você.
+
+Temos o prazer de informar que sua solicitação de crédito no valor de **R$ 50.000,00** possui **100% de probabilidade de aprovação**, com base em nossa análise preliminar. Seu perfil, combinado com a garantia apresentada, nos permite estruturar uma proposta altamente competitiva.
+
+As condições simuladas para esta operação são as seguintes:
+
+*   **Valor Aprovado:** R$ 50.000,00
+*   **Taxa de Juros Anual:** 8.50% a.a.
+*   **Prazo de Pagamento:** 36 meses
+
+Um fator determinante para estas condições vantajosas é a solidez da garantia que você apresentou. A utilização do seu bem, avaliado em R$ 80.000,00, como garantia nos permite oferecer taxas de juros significativamente mais baixas e prazos mais flexíveis. Mesmo com a característica de liquidez do bem, nossa análise especializada reconheceu o valor e a segurança que ele proporciona à operação, mitigando riscos e tornando o crédito mais acessível para você.
+
+Isso significa que você terá acesso ao capital necessário com um custo financeiro reduzido, otimizando seu planejamento financeiro e viabilizando seus projetos com tranquilidade.
+
+Para darmos prosseguimento e formalizarmos esta proposta, a próxima etapa é o envio da documentação necessária. Nossa equipe estará à disposição para orientá-lo(a) em cada passo e garantir que o processo seja ágil e transparente, solicitando documentos de identificação, comprovante de renda e os documentos relativos ao bem que será utilizado como garantia.
+
+Estamos prontos para avançar e transformar esta oportunidade em realidade. Agradecemos a confiança na Ventture e aguardamos seu retorno.
+
+Atenciosamente,
+
+Seu Gerente de Crédito Sênior
+Ventture","
+            <style>
+                body { color: #1E90FF; font-family: Arial; }
+                table { color: #1E90FF; }
+            </style>
+            
+    <style>
+    table.eli5-weights tr:hover {
+        filter: brightness(85%);
+    }
+</style>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+        <table class=""eli5-weights eli5-feature-importances"" style=""border-collapse: collapse; border: none; margin-top: 0em; table-layout: auto;"">
+    <thead>
+    <tr style=""border: none;"">
+        <th style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">Weight</th>
+        <th style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">Feature</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                garantia_ponderada
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                renda_por_idade
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                liquidez_score
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                relacao_garantia_credito
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                valor_bem
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                valor_solicitado
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                idade
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                renda_mensal
+            </td>
+        </tr>
+    
+    
+    </tbody>
+</table>
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+            "
+2025-10-28 00:41:21,11000.0,35,50000.0,80000.0,baixa,1.0,Sim,"Prezado Cliente,
+
+É com grande satisfação que apresentamos o resultado da sua análise de crédito conosco na Ventture.
+
+Com base nas informações fornecidas, temos a excelente notícia de que sua solicitação de crédito no valor de **R$ 50.000,00** tem uma **probabilidade de aprovação de 100%**. Nossa simulação inicial sugere condições altamente competitivas: uma **taxa de 8.50% ao ano** e um **prazo de 36 meses**.
+
+Um dos pilares fundamentais para estas condições vantajosas é a sua garantia de **R$ 80.000,00**. Este bem não apenas fortalece a sua proposta de crédito, mas também nos permite oferecer um acesso a capital mais significativo e em termos mais favoráveis, demonstrando a solidez da sua capacidade de pagamento e o compromisso com a operação. Na Ventture, valorizamos a segurança que sua garantia proporciona, transformando-a em um diferencial que se reflete diretamente em benefícios para você, como as condições atrativas que pudemos simular.
+
+Para darmos prosseguimento e formalizarmos esta oportunidade, a próxima etapa é o envio da documentação necessária para a validação final e formalização do contrato. Nossa equipe está à disposição para orientá-lo em cada passo e garantir um processo ágil e transparente.
+
+Aguardamos seu contato para avançarmos juntos nesta parceria.
+
+Atenciosamente,
+
+[Seu Nome/Nome do Gerente de Crédito Sênior]
+Gerente de Crédito Sênior
+Ventture","
+            <style>
+                body { color: #1E90FF; font-family: Arial; }
+                table { color: #1E90FF; }
+            </style>
+            
+    <style>
+    table.eli5-weights tr:hover {
+        filter: brightness(85%);
+    }
+</style>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+        <table class=""eli5-weights eli5-feature-importances"" style=""border-collapse: collapse; border: none; margin-top: 0em; table-layout: auto;"">
+    <thead>
+    <tr style=""border: none;"">
+        <th style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">Weight</th>
+        <th style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">Feature</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                garantia_ponderada
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                renda_por_idade
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                liquidez_score
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                relacao_garantia_credito
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                valor_bem
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                valor_solicitado
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                idade
+            </td>
+        </tr>
+    
+        <tr style=""background-color: hsl(0, 100.00%, nan%); border: none;"">
+            <td style=""padding: 0 1em 0 0.5em; text-align: right; border: none;"">
+                0
+                
+                    &plusmn; 0.0000
+                
+            </td>
+            <td style=""padding: 0 0.5em 0 0.5em; text-align: left; border: none;"">
+                renda_mensal
+            </td>
+        </tr>
+    
+    
+    </tbody>
+</table>
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+            "
